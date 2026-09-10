@@ -1,4 +1,4 @@
-const ASSET_VERSION = '20260910-4';
+const ASSET_VERSION = '20260910-5';
 
 export async function onRequest(context) {
   const response = await context.next();
