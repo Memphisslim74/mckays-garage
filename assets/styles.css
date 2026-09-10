@@ -43,3 +43,15 @@ p{margin:0 0 1rem}.lead{font-size:1.15rem;color:#3f3b36;max-width:760px}.muted{c
 .notice{background:#fff;border-left:5px solid var(--red);padding:18px 20px;margin:24px 0}.not-found{text-align:center;padding:120px 0}.not-found h1{font-size:5rem;margin:0}
 @media(max-width:920px){.nav-wrap{min-height:124px}.brand{min-width:170px}.brand img{width:160px;height:112px}.nav-toggle{display:block}.nav{position:absolute;left:0;right:0;top:124px;background:#171717;border-bottom:1px solid #2d2d2d;padding:20px;display:none;flex-direction:column;align-items:stretch}.nav.open{display:flex}.topbar .container{justify-content:center}.topbar .topbar-hours{display:none}.trust-grid,.card-grid,.blog-grid{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid var(--line)}.split,.form-shell,.service-detail{grid-template-columns:1fr}.service-list{grid-template-columns:1fr}.sticky-card{position:static}.section-header{display:block}.section-header .btn{margin-top:16px}.cta-band .container{align-items:flex-start;flex-direction:column}.footer-grid{grid-template-columns:1fr 1fr}.hero{min-height:590px}.photo-frame img{min-height:320px}.detail-list{columns:1}}
 @media(max-width:620px){.container{width:min(calc(100% - 28px),var(--max))}.nav-wrap{min-height:104px}.brand img{width:138px;height:96px}.brand{min-width:148px}.nav{top:104px}.hero .container{padding:72px 0}.hero{min-height:610px}.hero-actions .btn{width:100%}.section{padding:66px 0}.section-tight{padding:48px 0}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.footer-grid{grid-template-columns:1fr}.display{font-size:clamp(2.5rem,13vw,4rem)}.hero-mini{padding:62px 0 54px}.card{padding:22px}.topbar{font-size:.82rem}.topbar .container{gap:10px;flex-wrap:wrap}}
+
+/* Appointment request layout: use the dark information panel as a full-width header above the form. */
+@media(min-width:921px){
+  .form-shell{grid-template-columns:1fr;gap:0;align-items:stretch}
+  .form-shell>.contact-card{display:grid;grid-template-columns:minmax(250px,.72fr) minmax(0,1.28fr);column-gap:48px;row-gap:8px;align-items:center;padding:34px 40px;border:1px solid #171717;border-bottom:0}
+  .form-shell>.contact-card>.eyebrow,.form-shell>.contact-card>h2,.form-shell>.contact-card>.muted{grid-column:1;margin-bottom:0}
+  .form-shell>.contact-card>.contact-details{grid-column:2;grid-row:1/5;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;margin-top:0;align-items:start}
+  .form-shell>.contact-card>.hero-discount{grid-column:1/-1;margin-top:18px}
+  .form-shell>.form-card{width:100%;padding:40px 44px;border-top:0}
+  .form-shell>.form-card h2{font-size:clamp(2.8rem,4.6vw,4.5rem);max-width:none;margin-bottom:1.2rem}
+  .form-shell>.form-card .form-grid{column-gap:20px;row-gap:18px}
+}
