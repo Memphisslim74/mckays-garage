@@ -1,4 +1,4 @@
-const ASSET_VERSION = '20260910-3';
+const ASSET_VERSION = '20260910-4';
 
 export async function onRequest(context) {
   const response = await context.next();
@@ -12,11 +12,8 @@ export async function onRequest(context) {
     headers.set('X-Robots-Tag', 'noindex, nofollow, noarchive');
   }
 
-  // The first preview deployment used a 1-year immutable cache policy for
-  // styles.css and site.js. Existing browsers can therefore keep showing the
-  // original header and JavaScript even after newer deployments are live.
-  // Version the two non-fingerprinted assets at the HTML edge so every visitor
-  // gets the current CSS/JS without needing to clear browser cache manually.
+  // Version the non-fingerprinted CSS/JS asset URLs so browsers do not keep
+  // serving an older deployment from cache during this rebuild.
   if (contentType.includes('text/html')) {
     const html = await response.text();
     const versionedHtml = html
