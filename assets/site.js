@@ -77,7 +77,7 @@ function addShopGallery() {
 
   const css = document.createElement('link');
   css.rel = 'stylesheet';
-  css.href = '/assets/gallery.css';
+  css.href = '/assets/gallery.css?v=20260910-4';
   document.head.appendChild(css);
 
   const isHome = location.pathname === '/' || location.pathname === '/index.html';
