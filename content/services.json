@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "automotive-diagnostics",
+    "name": "Automotive Diagnostics",
+    "short": "Check-engine lights, drivability problems, intermittent issues, electrical faults and complex troubleshooting with modern scan-tool data.",
+    "intro": "A warning light or strange symptom is only the starting point. McKay's Garage uses current diagnostic equipment, hands-on testing and real mechanical experience to find the cause before recommending parts.",
+    "details": [
+      "Check-engine and warning-light diagnostics",
+      "Hard-start, no-start and intermittent problems",
+      "Electrical and charging-system troubleshooting",
+      "Sensor, wiring and drivability diagnosis",
+      "Advanced troubleshooting for difficult-to-find faults"
+    ],
+    "faq": [
+      ["Does a scan tool tell you exactly what part is bad?", "Not always. A trouble code points to a system or condition. Good diagnosis uses the code as a clue, then verifies the actual cause before a repair is recommended."],
+      ["Can you diagnose intermittent problems?", "Yes. Intermittent issues can take more testing because they may not be present all the time, but scan data, electrical testing and a clear description of the symptom help narrow them down."],
+      ["Do I need an appointment for diagnostics?", "An appointment is the best way to make sure enough time is reserved to evaluate the vehicle properly."]
+    ]
+  },
+  {
+    "slug": "diesel-service",
+    "name": "Diesel Service & Repair",
+    "short": "Maintenance, diagnostics, repair and performance-focused service for diesel pickups and other light-duty diesel vehicles.",
+    "intro": "Diesel vehicles work hard in Colorado. Whether yours is a daily driver, tow rig or work truck, McKay's Garage provides practical diesel maintenance and repair with an emphasis on reliability, clear communication and fixing the right problem.",
+    "details": [
+      "Diesel maintenance and fluid service",
+      "Fuel, starting and cold-weather concerns",
+      "Turbo, boost and drivability diagnostics",
+      "Cooling-system and towing-related service",
+      "Diesel performance upgrades where appropriate"
+    ],
+    "faq": [
+      ["Do you work on diesel pickups?", "Yes. Diesel service is one of McKay's Garage's core specialties, backed by formal diesel-technology education and years of hands-on experience."],
+      ["Can you help with cold-start problems?", "Yes. Batteries, glow-plug systems, fuel quality, filters and oil viscosity can all affect diesel starting in Colorado weather."],
+      ["Do you install diesel performance upgrades?", "McKay's Garage can evaluate performance goals and discuss upgrades that make sense for the way the truck is used."]
+    ]
+  },
+  {
+    "slug": "transmission-drivetrain",
+    "name": "Transmission & Drivetrain",
+    "short": "Transmission service and rebuild work plus differential inspection, service and repair for gas and diesel vehicles.",
+    "intro": "Slipping, rough shifts, noises and leaks deserve a real diagnosis. McKay's Garage evaluates the transmission and drivetrain before recommending anything from routine fluid service to a more involved repair or rebuild.",
+    "details": [
+      "Transmission inspection and service",
+      "Shift-quality and slipping diagnostics",
+      "Transmission rebuilds",
+      "Differential service and rebuilds",
+      "Drivetrain noise and vibration diagnosis"
+    ],
+    "faq": [
+      ["Does every transmission problem mean a rebuild?", "No. Fluid condition, sensors, wiring, controls and other components can cause transmission symptoms. The first step is identifying the actual problem."],
+      ["Do you service differentials?", "Yes. Differential fluid service, leak concerns, noise diagnosis and rebuild work are among the drivetrain services available."],
+      ["Should I service transmission fluid before there is a problem?", "Preventive service can help, but the correct interval and fluid depend on the vehicle. McKay's Garage can review the vehicle's condition and manufacturer guidance."]
+    ]
+  },
+  {
+    "slug": "suspension-steering",
+    "name": "Suspension & Steering",
+    "short": "Shocks, struts, control arms, ball joints, tie rods, wheel bearings, front-end components and lift-kit related work.",
+    "intro": "Clunks, wandering, uneven tire wear and loose steering are more than annoyances. McKay's Garage inspects the components that keep your vehicle stable and predictable, then explains what needs attention and what can wait.",
+    "details": [
+      "Shocks and struts",
+      "Ball joints, tie rods and control arms",
+      "Wheel bearings and front-end components",
+      "Steering and handling concerns",
+      "Lift-kit installation and related suspension work"
+    ],
+    "faq": [
+      ["What are signs of worn suspension parts?", "Common symptoms include clunks over bumps, uneven tire wear, wandering, excessive bouncing, steering play or a vehicle that no longer feels planted."],
+      ["Do you install lift kits?", "Yes. McKay's Garage offers lift-kit related work and can discuss the tradeoffs that come with changing ride height and suspension geometry."],
+      ["Can suspension problems cause tire wear?", "Yes. Worn steering or suspension components can change how the tire meets the road and may contribute to uneven or accelerated wear."]
+    ]
+  },
+  {
+    "slug": "engine-repair-rebuilds",
+    "name": "Engine Repair & Rebuilds",
+    "short": "From tune-ups and carburetor work to deeper engine repair and rebuilds for high-mileage or problem vehicles.",
+    "intro": "When an engine problem goes beyond routine maintenance, experience matters. McKay's Garage can diagnose mechanical concerns and handle more involved repair work, including engine rebuilds when that is the right path for the vehicle.",
+    "details": [
+      "Engine performance diagnosis",
+      "Tune-ups and ignition service",
+      "Carburetor rebuilds on applicable vehicles",
+      "Cooling and lubrication-related concerns",
+      "Engine rebuilds"
+    ],
+    "faq": [
+      ["When does an engine need to be rebuilt?", "Low compression, internal wear, oil consumption, knocking or major internal damage can lead to a rebuild recommendation, but diagnosis comes first."],
+      ["Do you work on older carbureted vehicles?", "McKay's Garage offers carburetor rebuilds and can evaluate older vehicles that need hands-on mechanical troubleshooting."],
+      ["Can you diagnose engine noise?", "Yes. Describing when the noise happens and how the vehicle behaves can help narrow down whether the source is internal, accessory-related or somewhere else."]
+    ]
+  },
+  {
+    "slug": "maintenance-oil-service",
+    "name": "Maintenance & Oil Service",
+    "short": "Routine oil changes, tune-ups, fluid checks and preventive service that help keep small problems from becoming expensive ones.",
+    "intro": "Routine maintenance is the least dramatic work a shop does, but it is some of the most important. McKay's Garage helps Longmont-area drivers stay ahead of wear with service based on the vehicle, mileage and how it is actually used.",
+    "details": [
+      "Oil and filter changes",
+      "Fluid inspection and service",
+      "Tune-ups and spark-plug service",
+      "Preventive maintenance inspections",
+      "Maintenance planning for high-mileage vehicles"
+    ],
+    "faq": [
+      ["How often should I change my oil?", "The right interval depends on the engine, oil specification, mileage and driving conditions. The vehicle owner's manual is the starting point, and severe use may justify a shorter interval."],
+      ["Do high-mileage vehicles need different maintenance?", "Often, yes. Age, leaks, fluid condition, rubber components and prior service history matter more as mileage climbs."],
+      ["Can you help prioritize maintenance?", "Yes. McKay's Garage's approach is to explain what is urgent, what is preventive and what can reasonably wait."]
+    ]
+  }
+]

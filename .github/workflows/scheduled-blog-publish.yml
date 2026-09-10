@@ -1,0 +1,39 @@
+name: Publish scheduled McKay's Garage blog posts
+
+on:
+  schedule:
+    - cron: '20 14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-when-due:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Check scheduled post dates
+        id: due
+        shell: bash
+        run: |
+          TODAY=$(TZ=America/Denver date +%F)
+          LATEST=$(node -e "const p=require('./content/posts.json').filter(x=>!x.existing&&x.publishDate<=process.argv[1]).sort((a,b)=>a.publishDate.localeCompare(b.publishDate));process.stdout.write(p.length?p[p.length-1].publishDate:'')" "$TODAY")
+          PREVIOUS=$(cat .scheduled-publish 2>/dev/null || true)
+          if [ -n "$LATEST" ] && [ "$LATEST" != "$PREVIOUS" ]; then
+            echo "$LATEST" > .scheduled-publish
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Trigger Cloudflare Pages rebuild
+        if: steps.due.outputs.publish == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .scheduled-publish
+          git commit -m "Publish scheduled blog post"
+          git push
